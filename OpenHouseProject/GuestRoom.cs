@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OpenHouseProject
 {
-    class GuestRoom
+    class GuestRoom : IRoom
     {
         public string RoomName { get; set; }
         public int FloorSpace { get; set; }
